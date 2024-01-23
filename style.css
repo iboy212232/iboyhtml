@@ -11,10 +11,16 @@ button{
   width: 100%;
 }
 ul{
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+  
+  
 }
 table{
   border-collapse: collapse;
@@ -31,6 +37,11 @@ table{
 
 }
 #footer{
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+#posted{
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
